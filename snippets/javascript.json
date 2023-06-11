@@ -1,0 +1,14 @@
+{
+  "helloworld": {
+    "prefix": "jshello",
+    "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END",
+    "description": "js Hello World"
+  },
+  "println": {
+    "prefix": "cl",
+    "body": [
+      "console.log(${0})"
+    ],
+    "description": "console.log"
+  }
+}
